@@ -78,11 +78,42 @@ Disediakan sebuah dataset Pokemon: [unduh di sini](https://www.kaggle.com/abcsds
 
 #
 
-## **Bukan Soal 3 - Wanna join?**
+# Remedial Data Science - Machine Learning
 
-<img src="https://dieng.blob.core.windows.net/isb/2020/01/LinkedIn-1.jpg"/>
+## **Soal - Pokemon Battle**
 
-<small>📣 Hey, I need your help! Have time to join as my team mates? <a href="https://wa.me/628886719327">Contact me.</a></small>
+Disediakan __beberapa dataset__ seputar data spesies Pokemon beserta history pertandingan antar Pokemon. File **_pokemon.csv_** berisi data lengkap 800 spesies Pokemon, sedangkan file _**combats.csv**_ berisi data historis duel Pokemon beserta pemenangnya. Unduh dataset: [klik sini](https://www.kaggle.com/sekarmg/pokemon).
+
+Dengan dataset tersebut, buatlah sebuah __file Notebook (.ipynb)__ berisi model machine learning (model bebas) yang dapat memprediksi pemenang dari duel antara 2 spesies Pokemon.
+
+__Requirements:__
+
+- Buat sebuah file __Notebook__ (_.ipynb_).
+- Unduh & gunakan dataset: [klik sini](https://www.kaggle.com/sekarmg/pokemon).
+- Buat model yang dapat memprediksi pemenang duel antara 2 Pokemon.
+- Tentukan & hitung metriks evaluasinya.
+- Untuk memprediksi, buatlah sebuah _function_ dengan 2 parameter nama Pokemon, misal ```def battle(pokemonA, pokemonB)```.
+- Jika _function_ dieksekusi akan menampilkan hasil prediksi pemenang duel beserta _probability_ kemenangannya. Contoh eksekusi:
+
+    ```python
+    battle('PIKACHU', 'MEWTWO')
+    battle('PIKACHU', 'CHARIZARD')
+    battle('CHARMANDER', 'DITTO')
+    battle('AGUMON', 'PATAMON')
+    ```
+
+    Output yang diharapkan:
+
+    ```python
+    Winner: 92% MEWTWO
+    Winner: 88% CHARIZARD
+    Winner: 78% DITTO
+    Maaf, data tidak ditemukan.
+    ```
+
+#
+
+✅ _Commit & push source code jawaban soal ini ke __Github__ Anda, buatlah repo dengan nama __Remedial_Pokemon_Battle__, kemudian lampirkan __url link repo Github__ Anda via email ke lintang@purwadhika.com!_
 
 #
 
